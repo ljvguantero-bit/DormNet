@@ -13,66 +13,59 @@ Analyze the collected data to identify areas with relatively weak or inconsisten
 Create a visual representation of Wi-Fi accessibility in the dormitory that can help users identify areas with different levels of connectivity.
 
 ## IV. Planned Features
+
 1. Wi-Fi Measurement Input
 The user can enter information collected from a Wi-Fi testing tool, including:
-Location
-Date and time
-Signal strength
-Download speed
-Upload speed
-Latency/ping
+- Location
+- Date and Time
+- Signal strength
+- Download speed
+- Upload speed
+- Latency/ping
+
 2. Data Storage
 The program will organize the measurements into a structured dataset.
 Example:
-Location
-Time
-Signal
-Download
-Upload
-Ping
-Room A
-6:00 PM
--55 dBm
-45 Mbps
-18 Mbps
-24 ms
-Room B
-6:00 PM
--72 dBm
-19 Mbps
-9 Mbps
-51 ms
+Location   Time    Signal    Download    Upload    Ping
+Room A    6:00 PM    -55 dBm    45 Mbps    18 Mbps    24 ms
+Room B    6:00 PM    -72 dBm    19 Mbps    9 Mbps     51 ms
 
 3. Wi-Fi Performance Classification
 The program will analyze the measurements and classify locations into categories such as:
-Good
-Moderate
-Weak
+- Good
+- Moderate
+- Weak
 The classification will be based on predefined thresholds established for the project.
+
 4. Location Comparison
 Users can compare Wi-Fi performance between different dormitory locations.
+
 5. Time-Based Analysis
 The program can compare measurements taken at different times to identify changes in Wi-Fi performance throughout the day.
+
 6. Wi-Fi Accessibility Map
 The program will present the collected data on a dormitory floor plan or simplified map so that users can visually identify areas with stronger or weaker connectivity.
+
 7. Summary Report
 The system will generate a summary containing information such as:
-Average signal strength
-Average download speed
-Average upload speed
-Average latency
-Strongest-performing areas
-Areas requiring further investigation
+- Average signal strength
+- Average download speed
+- Average upload speed
+- Average latency
+- Strongest-performing areas
+- Areas requiring further investigation
 
 ## V. Planned Inputs and Outputs
-Inputs
+
+Inputs --->
 The user will provide:
-Location — where the measurement was taken
-Time and date — when the measurement was taken
-Signal strength — measured in dBm
-Download speed — measured in Mbps
-Upload speed — measured in Mbps
-Latency — measured in milliseconds
+1. Location — where the measurement was taken
+2. Time and date — when the measurement was taken
+3. Signal strength — measured in dBm
+4. Download speed — measured in Mbps
+5. Upload speed — measured in Mbps
+6. Latency — measured in milliseconds
+
 Example:
 Location: Room 12
 Time: 7:00 PM
@@ -81,7 +74,7 @@ Download Speed: 25 Mbps
 Upload Speed: 10 Mbps
 Latency: 42 ms
 
-Outputs
+Outputs --->
 After processing the information, the program will provide:
 1. Performance Classification
 Room 12: MODERATE
