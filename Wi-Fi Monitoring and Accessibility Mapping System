@@ -1,2 +1,5 @@
 # DormNet
-This is a Wi-Fi Monitoring and Accessibility Mapping System for Pisay Dormitories. It visualizes collected performance measurements at different dormitory locations and times and analyzes and displays results through accessibility maps and summaries. The system aims to help improve Wi-Fi distribution and accessibility within dormitories.
+ DormNet is a proposed Internet monitoring and accssibility mapping system for Pisay dormitories.
+ It aims to collect, organize, and analyze Wi-Fi performance data from different locations and times to identify areas with weak or 
+ inconsistent connectivity. The system will present the results through summaries, comparisons, and a visual Wi-Fi accessibility map.
+ This is inspired by the fluctuating internet connection in the girl's dormitory 1.
