@@ -1,0 +1,55 @@
+START
+
+Display "DormNet: Wi-Fi Monitoring System"
+
+Display menu:
+    1. Add Wi-Fi Measurement
+    2. View Measurements
+    3. Analyze Wi-Fi Performance
+    4. View Wi-Fi Map
+    5. Exit
+
+Ask user to select an option
+
+IF user selects "Add Wi-Fi Measurement":
+    Ask for location
+    Ask for date and time
+    Ask for signal strength
+    Ask for download speed
+    Ask for upload speed
+    Ask for latency
+
+    Check if all required inputs are valid
+
+    IF inputs are valid:
+        Save measurement
+        Display "Measurement successfully recorded"
+    ELSE:
+        Display "Invalid input"
+        Ask user to enter the information again
+
+IF user selects "View Measurements":
+    Display all recorded measurements
+
+IF user selects "Analyze Wi-Fi Performance":
+    Calculate average signal strength
+    Calculate average download speed
+    Calculate average upload speed
+    Calculate average latency
+
+    Classify each location based on predefined thresholds
+
+    Display analysis and summary
+
+IF user selects "View Wi-Fi Map":
+    Load dormitory map
+    Display recorded measurements at their corresponding locations
+    Indicate the Wi-Fi performance classification of each location
+
+IF user selects "Exit":
+    Display "Thank you for using DormNet"
+    END PROGRAM
+
+Return to menu after completing an operation
+
+END
